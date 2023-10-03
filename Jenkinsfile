@@ -6,7 +6,7 @@ pipeline{
                 sh 'systemctl status jenkins'
             }
         }
-        stage('2-Test'){
+        stage('2-test'){
             steps{
                 echo "we are on parallel test"
             }
