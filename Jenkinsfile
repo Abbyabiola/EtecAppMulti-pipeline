@@ -51,7 +51,7 @@ pipeline{
                         }
                     }
                  }
-                 stage('9-Release to staging'){
+                 stage('9-release to staging'){
                     steps{
                         sh 'lscpu'
                     }
